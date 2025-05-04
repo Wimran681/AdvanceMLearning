@@ -1,0 +1,477 @@
+{
+    "intents": [
+        {
+            "tag": "weather",
+            "patterns": [
+                "What's the weather like?",
+                "Tell me the weather",
+                "Is it sunny today?"
+            ],
+            "responses": [
+                "It looks sunny today!",
+                "It might rain, carry an umbrella.",
+                "It’s cloudy with a chance of rain."
+            ]
+        },
+        {
+            "tag": "joke",
+            "patterns": [
+                "Tell me a joke",
+                "Make me laugh",
+                "Say something funny"
+            ],
+            "responses": [
+                "Why did the chicken join a band? Because it had the drumsticks!",
+                "I told my computer I needed a break, and it said no problem — it’ll go to sleep."
+            ]
+        },
+        {
+            "tag": "quote",
+            "patterns": [
+                "Give me a quote",
+                "Motivational quote",
+                "Inspire me"
+            ],
+            "responses": [
+                "Believe you can and you're halfway there.",
+                "The only way to do great work is to love what you do."
+            ]
+        },
+        {
+            "tag": "time",
+            "patterns": [
+                "What time is it?",
+                "Tell me the time",
+                "Do you know the time?"
+            ],
+            "responses": [
+                "I don’t have a clock, but your device surely does!",
+                "Check your watch — time flies!"
+            ]
+        },
+        {
+            "tag": "date",
+            "patterns": [
+                "What's today's date?",
+                "Tell me the date",
+                "Which day is it?"
+            ],
+            "responses": [
+                "It's a great day today!",
+                "Check your calendar, but I think it's a lovely day!"
+            ]
+        },
+        {
+            "tag": "language",
+            "patterns": [
+                "Which languages do you speak?",
+                "Can you talk in Spanish?",
+                "Do you understand French?"
+            ],
+            "responses": [
+                "I can understand many languages!",
+                "I'm designed to understand multiple languages."
+            ]
+        },
+        {
+            "tag": "food",
+            "patterns": [
+                "What should I eat today?",
+                "Suggest a meal",
+                "I am hungry"
+            ],
+            "responses": [
+                "How about some pasta?",
+                "Pizza never fails!",
+                "Try a healthy salad today."
+            ]
+        },
+        {
+            "tag": "music",
+            "patterns": [
+                "Play some music",
+                "Suggest a song",
+                "What's trending in music?"
+            ],
+            "responses": [
+                "You should listen to the latest pop hits!",
+                "Check out the top charts today."
+            ]
+        },
+        {
+            "tag": "movies",
+            "patterns": [
+                "Recommend a movie",
+                "What's a good movie?",
+                "Movie suggestions?"
+            ],
+            "responses": [
+                "Try watching Inception!",
+                "You might enjoy a comedy today."
+            ]
+        },
+        {
+            "tag": "news",
+            "patterns": [
+                "What's the news?",
+                "Tell me the news",
+                "Latest news please"
+            ],
+            "responses": [
+                "Check the latest headlines on your favorite news site!",
+                "News is always changing — keep an eye on it."
+            ]
+        },
+        {
+            "tag": "games",
+            "patterns": [
+                "Recommend a game",
+                "Any games to play?",
+                "Suggest a fun game"
+            ],
+            "responses": [
+                "Try a puzzle game!",
+                "How about something adventurous like Zelda?"
+            ]
+        },
+        {
+            "tag": "sports",
+            "patterns": [
+                "What is the score?",
+                "Sports update",
+                "Who won the match?"
+            ],
+            "responses": [
+                "Check your sports app for the latest updates!",
+                "It was an exciting game!"
+            ]
+        },
+        {
+            "tag": "holiday",
+            "patterns": [
+                "When is the next holiday?",
+                "Upcoming holidays?",
+                "Do I have a day off soon?"
+            ],
+            "responses": [
+                "Check your calendar — a holiday might be near!",
+                "A break sounds nice, doesn't it?"
+            ]
+        },
+        {
+            "tag": "reminder",
+            "patterns": [
+                "Remind me later",
+                "Set a reminder",
+                "Can you remind me?"
+            ],
+            "responses": [
+                "I can't set reminders yet, but you can try your device’s assistant!",
+                "Use your phone's reminder app to stay on track."
+            ]
+        },
+        {
+            "tag": "alarm",
+            "patterns": [
+                "Set an alarm",
+                "Wake me up at 7",
+                "Alarm for tomorrow"
+            ],
+            "responses": [
+                "I can't set alarms yet — try your phone's clock app!",
+                "Ask your smart device to set an alarm."
+            ]
+        },
+        {
+            "tag": "calendar",
+            "patterns": [
+                "Add event to my calendar",
+                "Schedule a meeting",
+                "What's on my calendar?"
+            ],
+            "responses": [
+                "I'm not connected to your calendar yet!",
+                "You can use Google Calendar or your phone's app for that."
+            ]
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "Where am I?",
+                "Find my location",
+                "What's my address?"
+            ],
+            "responses": [
+                "I can't access your location, but your phone can!",
+                "Enable location services on your device for that."
+            ]
+        },
+        {
+            "tag": "weather_forecast",
+            "patterns": [
+                "Weather this week?",
+                "Forecast for tomorrow",
+                "What’s the weekend weather?"
+            ],
+            "responses": [
+                "Looks like mixed conditions!",
+                "You should check a weather app for detailed forecasts."
+            ]
+        },
+        {
+            "tag": "traffic",
+            "patterns": [
+                "Traffic update",
+                "Is there traffic?",
+                "How's the traffic?"
+            ],
+            "responses": [
+                "Use Google Maps or Waze to check traffic conditions.",
+                "Might be a good idea to leave early just in case."
+            ]
+        },
+        {
+            "tag": "travel",
+            "patterns": [
+                "Where should I travel?",
+                "Suggest a travel destination",
+                "Best places to visit?"
+            ],
+            "responses": [
+                "How about Japan?",
+                "Try visiting the mountains or the beach!"
+            ]
+        },
+        {
+            "tag": "fitness",
+            "patterns": [
+                "Suggest a workout",
+                "Fitness tips?",
+                "How to lose weight?"
+            ],
+            "responses": [
+                "Try a 30-minute walk every day!",
+                "Consistency is key — start with light exercises."
+            ]
+        },
+        {
+            "tag": "health",
+            "patterns": [
+                "I feel sick",
+                "Health tips",
+                "What should I do if I have a fever?"
+            ],
+            "responses": [
+                "Please consult a doctor for proper advice.",
+                "Stay hydrated and get some rest."
+            ]
+        },
+        {
+            "tag": "shopping",
+            "patterns": [
+                "Where can I shop?",
+                "Suggest shopping sites",
+                "Best online shopping?"
+            ],
+            "responses": [
+                "Try Amazon, eBay, or local stores online!",
+                "There are great deals on many e-commerce platforms."
+            ]
+        },
+        {
+            "tag": "books",
+            "patterns": [
+                "Recommend a book",
+                "What should I read?",
+                "Best books to read?"
+            ],
+            "responses": [
+                "Try 'Atomic Habits' by James Clear.",
+                "How about some classic literature like '1984'?"
+            ]
+        },
+        {
+            "tag": "study",
+            "patterns": [
+                "Study tips",
+                "How to concentrate?",
+                "Help me study"
+            ],
+            "responses": [
+                "Take short breaks and avoid multitasking.",
+                "Set a study schedule and stick to it."
+            ]
+        },
+        {
+            "tag": "career",
+            "patterns": [
+                "Career advice",
+                "What job should I do?",
+                "Help with my resume"
+            ],
+            "responses": [
+                "Follow your passion and develop skills.",
+                "Consider talking to a career coach."
+            ]
+        },
+        {
+            "tag": "finance",
+            "patterns": [
+                "How to save money?",
+                "Budget tips?",
+                "Help with finances"
+            ],
+            "responses": [
+                "Track your expenses and cut unnecessary costs.",
+                "Make a budget and stick to it."
+            ]
+        },
+        {
+            "tag": "crypto",
+            "patterns": [
+                "What is Bitcoin?",
+                "Tell me about crypto",
+                "Should I invest in cryptocurrency?"
+            ],
+            "responses": [
+                "Cryptocurrency is volatile — invest with caution.",
+                "Do thorough research before investing."
+            ]
+        },
+        {
+            "tag": "technology",
+            "patterns": [
+                "Latest tech",
+                "What's new in tech?",
+                "Tech trends?"
+            ],
+            "responses": [
+                "AI and robotics are growing fast!",
+                "Check tech blogs for the latest updates."
+            ]
+        },
+        {
+            "tag": "support",
+            "patterns": [
+                "I need support",
+                "Talk to support",
+                "Customer care"
+            ],
+            "responses": [
+                "Let me connect you with our support team.",
+                "We're here to help — what’s the issue?"
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Is anyone there?",
+                "Hello",
+                "Hay"
+            ],
+            "responses": [
+                "Hello",
+                "Hi",
+                "Hi there"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later",
+                "Have a nice day",
+                "Bye! Come back again"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thanks for the help"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "You're most welcome!"
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": [
+                "Who are you?",
+                "What are you?",
+                "Who you are?"
+            ],
+            "responses": [
+                "I.m Joana, your bot assistant",
+                "I'm Joana, an Artificial Intelligent bot"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name",
+                "what should I call you",
+                "whats your name?"
+            ],
+            "responses": [
+                "You can call me Joana.",
+                "I'm Joana!",
+                "Just call me as Joana"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Could you help me?",
+                "give me a hand please",
+                "Can you help?",
+                "What can you do for me?",
+                "I need a support",
+                "I need a help",
+                "support me please"
+            ],
+            "responses": [
+                "Tell me how can assist you",
+                "Tell me your problem to assist you",
+                "Yes Sure, How can I support you"
+            ]
+        },
+        {
+            "tag": "createaccount",
+            "patterns": [
+                "I need to create a new account",
+                "how to open a new account",
+                "I want to create an account",
+                "can you create an account for me",
+                "how to open a new account"
+            ],
+            "responses": [
+                "You can just easily create a new account from our web site",
+                "Just go to our web site and follow the guidelines to create a new account"
+            ]
+        },
+        {
+            "tag": "complaint",
+            "patterns": [
+                "have a complaint",
+                "I want to raise a complaint",
+                "there is a complaint about a service"
+            ],
+            "responses": [
+                "Please provide us your complaint in order to assist you",
+                "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+            ]
+        }
+    ]
+}
